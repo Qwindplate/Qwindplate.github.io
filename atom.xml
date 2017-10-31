@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-28T05:23:22.752Z</updated>
+  <updated>2017-10-31T09:35:07.816Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first blog</title>
+    <link href="http://yoursite.com/2017/10/31/my-first-blog/"/>
+    <id>http://yoursite.com/2017/10/31/my-first-blog/</id>
+    <published>2017-10-31T09:31:55.000Z</published>
+    <updated>2017-10-31T09:35:07.816Z</updated>
+    
+    <content type="html"><![CDATA[<p>#测试</p>]]></content>
+    
+    <summary type="html">
+    
+      测试
+    
+    </summary>
+    
+    
+      <category term="没事干，很闲" scheme="http://yoursite.com/tags/%E6%B2%A1%E4%BA%8B%E5%B9%B2%EF%BC%8C%E5%BE%88%E9%97%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
