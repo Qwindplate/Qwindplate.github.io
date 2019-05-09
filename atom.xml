@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-08T09:14:06.029Z</updated>
+  <updated>2019-05-09T14:59:56.195Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5.9报告--莫队orz</title>
+    <link href="http://yoursite.com/2019/05/09/5-9%E6%8A%A5%E5%91%8A-%E8%8E%AB%E9%98%9Forz/"/>
+    <id>http://yoursite.com/2019/05/09/5-9报告-莫队orz/</id>
+    <published>2019-05-09T13:37:35.000Z</published>
+    <updated>2019-05-09T14:59:56.195Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2019/05/09/5-9报告-莫队orz/1.jpg" alt="我tm搜爆"><br>莫队就是一个暴力算法<br>他可以有效的处理离线区间问题<br>对于在线的区间问题还是得用主席树<br><a href="&quot;https://blog.csdn.net/Yuzzzzzz/article/details/90049453&quot;">P2709</a><br>对于这道沙雕题，普通吸氧的速度还不如直接scanf快<br>但是也因此学会了吸氧的新姿势<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> _Tp&gt; <span class="keyword">inline</span> _<span class="function">Tp <span class="title">read</span><span class="params">(_Tp&amp;x)</span></span>&#123;</div><div class="line">    <span class="keyword">char</span> c11=getchar(),ob=<span class="number">0</span>;</div><div class="line">    x=<span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span>(c11^<span class="string">'-'</span>&amp;&amp;!<span class="built_in">isdigit</span>(c11))</div><div class="line">        c11=getchar();</div><div class="line">    <span class="keyword">if</span>(c11==<span class="string">'-'</span>)</div><div class="line">        c11=getchar(),ob=<span class="number">1</span>;</div><div class="line">    <span class="keyword">while</span>(<span class="built_in">isdigit</span>(c11))</div><div class="line">        x=x*<span class="number">10</span>+c11-<span class="string">'0'</span>,c11=getchar();</div><div class="line">    <span class="keyword">if</span>(ob)x=-x;</div><div class="line">    <span class="keyword">return</span> x;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;b=read(a);&#125;</div></pre></td></tr></table></figure></p><p>这应该是除了fread外最快的方法了吧（求不要打脸）</p><p>[BZOJ2038]<br>我认为这题数论成分更大？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/2019/05/09/5-9报告-莫队orz/1.jpg&quot; alt=&quot;我tm搜爆&quot;&gt;&lt;br&gt;莫队就是一个暴力算法&lt;br&gt;他可以有效的处理离线区间问题&lt;br&gt;对于在线的区间问题还是得用主席树&lt;br&gt;&lt;a href=&quot;&amp;quot;https://blog.
+      
+    
+    </summary>
+    
+    
+      <category term="垃圾莫队，浪费我时间" scheme="http://yoursite.com/tags/%E5%9E%83%E5%9C%BE%E8%8E%AB%E9%98%9F%EF%BC%8C%E6%B5%AA%E8%B4%B9%E6%88%91%E6%97%B6%E9%97%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>2019.5.8</title>
