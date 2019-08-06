@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-04T16:20:35.050Z</updated>
+  <updated>2019-08-06T00:25:48.438Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>8.5</title>
+    <link href="http://yoursite.com/2019/08/06/8-5/"/>
+    <id>http://yoursite.com/2019/08/06/8-5/</id>
+    <published>2019-08-06T00:25:11.000Z</published>
+    <updated>2019-08-06T00:25:48.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>总结（x） 反思（√）</p><p>poj2728 </p><p>裸的斜率优化生成树</p><p>sb题竟然花了我接近两个小时？？？？</p><p>1000个点的完全图我竟然去写了个链式向前星？？？睿智行为</p><p>链式向前星+堆优化的prim怎么写样例怎么跑不过？？？</p><p>最后邻接矩阵+普通prim一发就过了，真的是日了狗</p><p>一开始写二分竟然睿智地写了 l=mid+1 而且还完全没觉得自己有问题。果然睡眠不足会导致人变蠢。</p><p>01分数规划除了二分还有一个迭代写法，无法证明复杂度姑且认为复杂度差不多，但据说迭代法有的情况不一定能用。</p><p>poj3621</p><p>这个傻逼题又花了我一个半小时？？？艹</p><p>二分x，用spfa判断负环</p><p>看见1000个点直接用了邻接矩阵，但是有的边不存在导致一堆bug，最后又改回了链式向前星。（果然建图要灵活取舍）</p><p>中间样例一直跑不过，搞了快半小时发现看错题了，是一个有向图，我写成无向图了。</p><p>改完之后样例跑过了，然后一交还是wa，后来对着别人代码改，发现时自带的abs不行，自己写了个myabs就过了？？？？？？什么玩意？？？？？</p><p>codeforce #577（div）c</p><p>傻逼题，又傻逼了，没考虑中间跳出时的一种情况</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;总结（x） 反思（√）&lt;/p&gt;
+&lt;p&gt;poj2728 &lt;/p&gt;
+&lt;p&gt;裸的斜率优化生成树&lt;/p&gt;
+&lt;p&gt;sb题竟然花了我接近两个小时？？？？&lt;/p&gt;
+&lt;p&gt;1000个点的完全图我竟然去写了个链式向前星？？？睿智行为&lt;/p&gt;
+&lt;p&gt;链式向前星+堆优化的prim怎么写样例怎么跑
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>8.4总结</title>
