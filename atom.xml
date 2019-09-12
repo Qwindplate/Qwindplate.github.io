@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-22T09:41:18.510Z</updated>
+  <updated>2019-09-12T05:49:49.817Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.22/"/>
-    <id>http://yoursite.com/2019/09/12/8.22/</id>
-    <published>2019-09-12T05:41:34.836Z</published>
-    <updated>2019-08-22T09:41:18.510Z</updated>
+    <title>20190811</title>
+    <link href="http://yoursite.com/2019/09/12/20190811/"/>
+    <id>http://yoursite.com/2019/09/12/20190811/</id>
+    <published>2019-09-12T05:48:33.000Z</published>
+    <updated>2019-09-12T05:49:49.817Z</updated>
     
-    <content type="html"><![CDATA[<p>POJ2104（不带修）整体二分模板题</p><p>HDU5412 (带修）整体二分</p><p>BZOJ4293</p><p>BZOJ1023</p><p>BZO4316</p><p>BZOJ2125</p><p>BZoj3196</p>]]></content>
+    <content type="html"><![CDATA[<p>����</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;POJ2104（不带修）整体二分模板题&lt;/p&gt;
-&lt;p&gt;HDU5412 (带修）整体二分&lt;/p&gt;
-&lt;p&gt;BZOJ4293&lt;/p&gt;
-&lt;p&gt;BZOJ1023&lt;/p&gt;
-&lt;p&gt;BZO4316&lt;/p&gt;
-&lt;p&gt;BZOJ2125&lt;/p&gt;
-&lt;p&gt;BZoj3196&lt;/p&gt;
+        &lt;p&gt;����&lt;/p&gt;
 
       
     
@@ -45,190 +39,11 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.21/"/>
-    <id>http://yoursite.com/2019/09/12/8.21/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-21T03:17:22.440Z</updated>
-    
-    <content type="html"><![CDATA[<p>###BZOJ1103</p><p>树链剖分，将边权转为点权，比如边(x,y)，将其边权存到深度大的点上</p><p>本题查询的是1到y，如果要查询x到y，只要找x到y的点权和然后减去他们lca的点权即可</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;###BZOJ1103&lt;/p&gt;
-&lt;p&gt;树链剖分，将边权转为点权，比如边(x,y)，将其边权存到深度大的点上&lt;/p&gt;
-&lt;p&gt;本题查询的是1到y，如果要查询x到y，只要找x到y的点权和然后减去他们lca的点权即可&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.18/"/>
-    <id>http://yoursite.com/2019/09/12/8.18/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-19T08:14:02.428Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="P4602主席树-二分"><a href="#P4602主席树-二分" class="headerlink" title="P4602主席树+二分"></a>P4602主席树+二分</h3><p>对d排序，按d的顺序插入果汁，维护价格和数量</p><p>对于每个小孩，二分d，在主席树中取最便宜的使总数足够，判断价格</p><p>第七组一直没过，肯定是数据有问题，不管了</p><h3 id="P3402可持续并查集"><a href="#P3402可持续并查集" class="headerlink" title="P3402可持续并查集"></a>P3402可持续并查集</h3><p>裸题</p><p>###BZOJ2588 lca+主席树</p><p>讲权值离散化</p><p>用主席树存权值</p><p>对于每一个点，就存从根结点到他路径上的权值线段树，用主席树来存的话就是从其父亲转化过来就好了，即从父亲主席树更新它自己的节点</p><p>则对于查询u到v的第k小，就是T[u]+T[v]-T[lca(u,v)]-T[fa[lca[(u,v)]]]中的第k小</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;P4602主席树-二分&quot;&gt;&lt;a href=&quot;#P4602主席树-二分&quot; class=&quot;headerlink&quot; title=&quot;P4602主席树+二分&quot;&gt;&lt;/a&gt;P4602主席树+二分&lt;/h3&gt;&lt;p&gt;对d排序，按d的顺序插入果汁，维护价格和数量&lt;/p&gt;
-&lt;p&gt;对于每个
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.14/"/>
-    <id>http://yoursite.com/2019/09/12/8.14/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-14T15:17:25.787Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="luogu-P3690"><a href="#luogu-P3690" class="headerlink" title="luogu P3690"></a>luogu P3690</h2><h2 id="hdu1695"><a href="#hdu1695" class="headerlink" title="hdu1695"></a>hdu1695</h2><p>##bzoj2440</p><p>r=n*10时会运行错误，不知道为什么</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;luogu-P3690&quot;&gt;&lt;a href=&quot;#luogu-P3690&quot; class=&quot;headerlink&quot; title=&quot;luogu P3690&quot;&gt;&lt;/a&gt;luogu P3690&lt;/h2&gt;&lt;h2 id=&quot;hdu1695&quot;&gt;&lt;a href=&quot;#hdu1695&quot; c
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.19/"/>
-    <id>http://yoursite.com/2019/09/12/8.19/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-19T11:43:15.448Z</updated>
-    
-    <content type="html"><![CDATA[<p>BZOJ3626</p><p>HDU2665</p><p>主席树模板题</p><p>本来是这样的，但是这题实际上是输出第k小，傻逼出题人</p><p>BZOJ1832/1787</p><p>心态真的炸，就求lca</p><p>树上找一个点，使三个点到这个点的距离之和最短</p><p>两两找lca，得到三个点，其中两个相同，第三个特异独行的就是要求的点了，画图就可以验证了</p><p>不知道为什么，我的代码一直T，后来把fa[N][64]改成fa[N][20]就过了，迷的一批</p><p>我觉得可能使内存超了导致出了bug，因为这道题时限是10s，我后来ac的程序跑了6s，但是T的程序交上去基本编译完就出结果了，体感时间很短，所以必不可能是因为跑了10s，大概是内存超限引起的bug，下次注意。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;BZOJ3626&lt;/p&gt;
-&lt;p&gt;HDU2665&lt;/p&gt;
-&lt;p&gt;主席树模板题&lt;/p&gt;
-&lt;p&gt;本来是这样的，但是这题实际上是输出第k小，傻逼出题人&lt;/p&gt;
-&lt;p&gt;BZOJ1832/1787&lt;/p&gt;
-&lt;p&gt;心态真的炸，就求lca&lt;/p&gt;
-&lt;p&gt;树上找一个点，使三个点到这个点的距离
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.15/"/>
-    <id>http://yoursite.com/2019/09/12/8.15/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-16T01:17:57.204Z</updated>
-    
-    <content type="html"><![CDATA[<p>bzoj2301莫比乌斯反演</p><p>bzoj2820莫比乌斯反演</p><p>$\sum^{min(n,m)}<em>{p=1}\sum</em>{d|p\and isprime(d)}\mu(\frac{p}{d})\lfloor\frac{n}{p}\rfloor\lfloor\frac{m}{p}\rfloor$</p><p>对于解密方，首先可以求的 w 关于 m 的逆元 $w^{-1}$。</p><p>然后我们可以将得到的密文乘以 $w^{-1}$ 即可得到明文，这是因为</p><p>$$\sum_{i=1}^{i=n}w^{-1}b_iv<em>i \bmod m=\sum</em>{i=1}^{i=n}a_iv_i \bmod m$$</p><p>这里有</p><p>$$b_i \equiv w a_i \bmod m$$</p><p>对于每一块的加密的消息都是小于 m 的，所以求得结果自然也就是明文了。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;bzoj2301莫比乌斯反演&lt;/p&gt;
-&lt;p&gt;bzoj2820莫比乌斯反演&lt;/p&gt;
-&lt;p&gt;$\sum^{min(n,m)}&lt;em&gt;{p=1}\sum&lt;/em&gt;{d|p\and isprime(d)}\mu(\frac{p}{d})\lfloor\frac{n}{p}\rflo
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.16/"/>
-    <id>http://yoursite.com/2019/09/12/8.16/</id>
-    <published>2019-09-12T05:41:34.826Z</published>
-    <updated>2019-08-16T11:05:01.919Z</updated>
-    
-    <content type="html"><![CDATA[<p>P1447[NOI2010] </p><p><em>1</em></p><p><strong>12</strong></p><p><del>w</del></p><p><u>asd</u></p><p>==1==    </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;P1447[NOI2010] &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;1&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;12&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;w&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;asd&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;==1==    &lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.12and13/"/>
-    <id>http://yoursite.com/2019/09/12/8.12and13/</id>
-    <published>2019-09-12T05:41:34.786Z</published>
-    <updated>2019-08-13T09:19:10.553Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="再战LCT"><a href="#再战LCT" class="headerlink" title="再战LCT"></a>再战LCT</h1><p>lct其实就是splay plus，它也有时被称为长链剖分，树链剖分使用线段树来维护每条链上的信息，lct用splay来维护链上信息</p><p>因为splay的各种操作，使LCT拥有了许多牛逼的操作</p><p>下面介绍一些概念</p><ul><li>preferred path：和树链剖分的重链对应，但是preferred path是可以选择的，所有路径都可以是preferred -           -                             path，每条preferred path都用splay存，就可以保证在splay中操作复杂度为log</li><li>实树和虚树：实树指的是原来的树，虚树指的是维护每条preferred path所建的splay，实树可能不止一颗</li><li>splay中点的排序是按照圣都来排的，和点权无关</li></ul><h2 id="1-access（x）核心操作"><a href="#1-access（x）核心操作" class="headerlink" title="1.access（x）核心操作"></a>1.access（x）核心操作</h2><p>取出x到实树树根路径上的所有节点，并存在一个splay中，其实就是将x到实树根的路径变为preferred path</p><h2 id="2-find-root-x-找根"><a href="#2-find-root-x-找根" class="headerlink" title="2.find_root(x) 找根"></a>2.find_root(x) 找根</h2><p>找到x在实树上的树根</p><h2 id="3-make-root-x"><a href="#3-make-root-x" class="headerlink" title="3.make_root(x)"></a>3.make_root(x)</h2><p>将x变为其所在实树的根</p><h2 id="4-link-x-y"><a href="#4-link-x-y" class="headerlink" title="4.link(x,y)"></a>4.link(x,y)</h2><p>连接x,y</p><h2 id="5-cut-x-y"><a href="#5-cut-x-y" class="headerlink" title="5.cut(x,y)"></a>5.cut(x,y)</h2><p>断开x，y</p><h2 id="6-modify-x-y-val"><a href="#6-modify-x-y-val" class="headerlink" title="6.modify(x,y,val)"></a>6.modify(x,y,val)</h2><p>在x到y的路径上每个点的点权都加上val</p><h2 id="7-query-x-y"><a href="#7-query-x-y" class="headerlink" title="7.query(x,y)"></a>7.query(x,y)</h2><p> 询问路径(x,y)上的最大点权</p><h1 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h1><h3 id="hdu4010-检测模板对不对题"><a href="#hdu4010-检测模板对不对题" class="headerlink" title="hdu4010(检测模板对不对题)"></a>hdu4010(检测模板对不对题)</h3><p>###luoguP3690</p><p>刷题记录</p><p>codeforce：1200A</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;再战LCT&quot;&gt;&lt;a href=&quot;#再战LCT&quot; class=&quot;headerlink&quot; title=&quot;再战LCT&quot;&gt;&lt;/a&gt;再战LCT&lt;/h1&gt;&lt;p&gt;lct其实就是splay plus，它也有时被称为长链剖分，树链剖分使用线段树来维护每条链上的信息，lct用spla
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.11/"/>
-    <id>http://yoursite.com/2019/09/12/8.11/</id>
-    <published>2019-09-12T05:41:34.776Z</published>
-    <updated>2019-08-11T07:05:47.848Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/8.9/"/>
-    <id>http://yoursite.com/2019/09/12/8.9/</id>
-    <published>2019-09-12T05:41:34.716Z</published>
-    <updated>2019-08-09T07:36:33.867Z</updated>
+    <title>20190809</title>
+    <link href="http://yoursite.com/2019/09/12/20190809/"/>
+    <id>http://yoursite.com/2019/09/12/20190809/</id>
+    <published>2019-09-12T05:48:16.000Z</published>
+    <updated>2019-09-12T05:50:25.960Z</updated>
     
     <content type="html"><![CDATA[<h3 id="线性基"><a href="#线性基" class="headerlink" title="线性基"></a>线性基</h3><p>一个比较好的解释：</p><p>设数集 S 的值域范围为[1,2n−1] T 是 S 的线性基 T={t1,t2,t3,…,tn}（ tx 的最高位的 1 在第 x 位） </p><p>T 中元素互相异或所形成的集合，等价于原数集 S 的元素互相异或形成的集合简单点，可以理解为将原数集进行了压缩</p><p>总所周知，只要两个基向量(0,1)(1,0)就能表示二维空间里的所有向量</p><p>对于数组S，他的任意子序列异或起来的值构成一个新集合SB，显然这个集合的元素很多很多，直接用数组存不太好，于是我们也希望能给他搞几个“基”，然后通过异或这些基来得到SB中的每一个元素，于是就有了线性基。这时候可能就有人问了，那直接用原数组S不就好了嘛，主要还是因为线性基好计算，方便进行各种骚操作。</p><h3 id="构造线性基"><a href="#构造线性基" class="headerlink" title="构造线性基"></a>构造线性基</h3><p>依次插入数，从位数的高到低插入 如果该位无元素(0)，将目前元素放进去 如果改为有元素，异或后处理更低一位 </p><p>比如101 111 11(二进制表示)</p><p>第一次101插进去 s[3]=101</p><p>第二次111插进去，111最高为为3，但是s[3]已经名花有主了，所以111^101 = 10 ，s[2]=10</p><blockquote><p>机智的你们肯定发现了，只要这样处理下去，判断到第i位，大于第i位的数字都为0，如果所有位都有数字的话，若最高位为第n位，所能表示的最大数字位$2^n$,因为每一位异或都能想办法使当前位变为1，最终使所有位都变成1</p></blockquote><p>第三次插11，11^s[3]^s[2]=0,所以就什么都不用干了（即现有的线性基能表示11）</p><blockquote><p>论如何保证线性基span出来的空间和原数组span出来的空间是相同的，很明显啊 因为n^n =0，0^n=n,所以线性基异或出来的数相当于是原数组子集异或出来的</p></blockquote><p>这里保证了线性基是线性无关的。</p><p>学过线代的大家就能明白线性基的原理了（什么？你没学过线代，那就快去学叭）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> arr[N];<span class="comment">//原函数</span></div><div class="line"><span class="keyword">int</span> r[<span class="number">32</span>];<span class="comment">//线性基 </span></div><div class="line"><span class="function"><span class="keyword">bool</span> <span class="title">ins</span><span class="params">(<span class="keyword">int</span> x)</span></span></div><div class="line"><span class="function"></span>&#123;</div><div class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">31</span>;i&gt;=<span class="number">0</span>;i--)</div><div class="line">    <span class="keyword">if</span>(x&gt;&gt;i)</div><div class="line">        &#123;</div><div class="line">            <span class="keyword">if</span>(!r[i])</div><div class="line">            &#123;</div><div class="line">                r[i] = x;</div><div class="line">                <span class="keyword">return</span> <span class="number">1</span>;</div><div class="line">            &#125;</div><div class="line">            x ^= r[i];</div><div class="line">            <span class="keyword">if</span>(!x)<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">        &#125;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>基础应用</p><p>异或最大值：贪心从高到低贪心选择或不选择 </p><p>异或最小值：贪心从低到高位选择第一个非空元素 </p><p>异或判特值：贪心处理直到为0</p><p>异或个数：因为每个元素都是处理出来相对独立的，答案为2$^{集合个数} $</p><p>异或K小值：$2^i$小值就是第i−1个元素贪心地与前面处理的结果，然后对K拆位处理 </p><p>线性基合并：暴力插入即可(相当于把v1的线性基加到v2数组中)</p><p>引理：<strong><em>若V1，V2是线性空间，B1，B2分别是他们的一组基，令W=B2∩V1，若B1∪（B2\W)线性无关，则W是V1∩V2的一组基</em></strong></p><p> 证明：</p><p>若v∈V1∩V2，则v可同时呗B1和B2表示出。</p>]]></content>
     
@@ -246,20 +61,13 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/09/12/%E5%90%8E%E7%BC%80/"/>
-    <id>http://yoursite.com/2019/09/12/后缀/</id>
-    <published>2019-09-12T05:41:34.706Z</published>
-    <updated>2019-08-07T11:31:32.912Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="陈立杰后缀自动机讲稿笔记"><a href="#陈立杰后缀自动机讲稿笔记" class="headerlink" title="陈立杰后缀自动机讲稿笔记"></a>陈立杰后缀自动机讲稿笔记</h1><p>trans(s,ch) 当前状态为s，读入<strong><em>字符</em></strong>ch之后，所达到的状态</p><p>Cur = trans(s,str)</p><p>Reg(A)：自动机A能识别的字符串（从init开始识别到end）</p><p>Reg(s):从状态s开始能识别的字符串（s开始识别到end）</p><p>后缀自动机（suffix automaton/SAM）</p><p>定义：能识别S的所有后缀的自动机</p><p>SAM(x) =true 时，当且仅当x为S的后缀，后缀自动机也能用来识别S的所有子串</p><p>ST(str)表示trans(init,str)</p><p>suf为母串S的后缀集合</p><p>Fac为母串S的连续子串集合</p><p>从位置a开始的后缀为Suffix(a) </p><p>S[l,r)表示S中[l,r)这个区间构成的子串，下标从0开始。</p><p>a在S中的[l,r)位置出现 （这里的a是一个字符串，[l,r)可能不止一个） </p><p>计在母串S中a的后一个字符位置为$r_n$</p><p>Reg(ST(a))={$Suffix(r_1),Suffix(r_2),…,Suffix(r_n)$}</p><p>令Right(a)=${r_1,r_2,…,r_n}$,那么Reg(ST(a))就完全由Right(a)决定</p><p>一个状态s，由所有RIght集合是Right(s)的字符串组成</p><p>令r∈Right(s)，只要给定子串长度len，该子串就是S[r-len,r].</p><p>所有确定Right集合后，在给出一个长度就可以确定子串了</p><p>令s的区间为[Min(s),Max(s)]？？？？？</p><h1 id="要不换个博客来看看？"><a href="#要不换个博客来看看？" class="headerlink" title="要不换个博客来看看？"></a>要不换个博客来看看？</h1><p><del>学你🐎的理论，实践出真知</del></p><p><a href="https://www.luogu.org/blog/Kesdiael3/hou-zhui-zi-dong-ji-yang-xie" target="_blank" rel="external">链接</a></p><p>后缀自动机的性质（在该博客里用endpos表示Right<strong>集合</strong>，我觉得挺有道理的）</p><ul><li>如果两个子串的endpos相同，则其中子串一个必然为另一个的后缀</li><li>对任意两个子串t和p($len_t &lt;= len_p$),要么endpos(p)属于endpos(t),要么endpos(t) ∩ endpos(s) = $\varnothing $</li><li>对于endpos相同的子串，归为一个endpos等价类。对于任意一个等价类，将包含在其中的所以子串按长度从大到小排序，每个子串的长度均为上一个子串的长度减一，且为上一个子串的后缀</li><li>endpos等价类个数的级别为O(n)</li><li>一个类a中，由最长的子串，也有最短的子串，我们称最长子串的长度为len(a),最短子串长度为minlen(a)。 对于存在父子关系的两个类，设fa(a)表示类a的父亲(也是一个类)。则：len(fa(a))+1 = minlen(a)</li></ul><p>直接开始用叭(<del>学个机霸</del>）</p><p>1.insert</p><p>sam的构造是不断地向已经建好地sam中加入新地节点。last表示上一个被插入的节点，cnt表示sam中的节点数量，一开始只有一个起点的初始sam。last = cnt = 1；</p><p>接下来，假设要往sam里加入一个字符x</p><ul><li>新建节点np = ++cnt。新建节点，p=last，last=np </li><li>如果不存在ch[p][x] ,令ch[p][x] =np,p=fa[p]。重复此步骤</li></ul><blockquote><p>往上找找到第一个拥有x儿子的节点</p></blockquote><ul><li>如果到最后一个p都没有拥有儿子x，令fa[np]=1。退出过程。</li></ul><blockquote><p>如果都往上走都没有，则这个节点的父节点为初始点1</p></blockquote><ul><li>当ch[p][x]出现时,令q=ch[p][x]。如果len[q]==len[p]+1,令fa[np] = q。退出过程</li></ul><blockquote><p>如果满足这个条件，则np的父亲就为p</p></blockquote><ul><li><p>否则新建节点nq = ++cnt,将q的儿子都复制给nq，令len[nq] = len[p]+1。</p></li><li><p>令fa[nq] = fa[q],fa[q]=fa[np]=nq.</p></li><li>从p开始沿着后缀链接（p=fa[p]），将所有ch[p][x]==q的节点的ch[p][x]都替换成nq</li></ul><blockquote><p>p的儿子为q</p><p>新建一个节点nq，将q的儿子都复制给nq</p><p>nq的父节点设为p，np和q的父节点设为q</p><p>沿后缀链接将所有ch[px][x]==q的节点改为等于nq</p><p>相当于nq抢走了q的一切，而且让q和np认他为父亲，简直是杀人诛心</p></blockquote><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> x)</span></span></div><div class="line"><span class="function"></span>&#123;</div><div class="line">    <span class="keyword">int</span> np = ++cnt,p=last;</div><div class="line">    len[np]=len[p]+<span class="number">1</span>,last = np;</div><div class="line">    <span class="keyword">while</span>(p&amp;&amp;!ch[p][x])</div><div class="line">        ch[p][x]=np,p=fa[p];</div><div class="line">    <span class="keyword">if</span>(!p)</div><div class="line">        fa[np] = <span class="number">1</span>;</div><div class="line">    <span class="keyword">else</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">int</span> q = ch[p][x];</div><div class="line">        <span class="keyword">if</span>(len[q]==len[p]+<span class="number">1</span>)</div><div class="line">            fa[np] = q;</div><div class="line">        <span class="keyword">else</span></div><div class="line">        &#123;</div><div class="line">            <span class="keyword">int</span> nq = ++cnt;</div><div class="line">            len[nq] = len[p]+<span class="number">1</span>;</div><div class="line">            memmove(ch[nq],ch[q],<span class="keyword">sizeof</span>(ch[nq]));</div><div class="line">            fa[nq] = fa[q];</div><div class="line">            fa[np] = fa[q] = nq;</div><div class="line">            <span class="keyword">while</span>(ch[p][x] == q)</div><div class="line">            &#123;</div><div class="line">            ch[p][x] = nq;</div><div class="line">            p = fa[p];</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>于是sam就建好啦，艹。我也不知道为什么，等我知道了在回来补吧。</p><p>其实sam建出来的树相当于将节点个数压缩到O(n)的tire树，这颗tire树储存了一个字符串所有后缀，每条路劲都代表一个子串</p><p>right集合上面说过了就不说了</p><h3 id="据说是重点："><a href="#据说是重点：" class="headerlink" title="据说是重点："></a>据说是重点：</h3><p>节点x的后缀链接fa(x):right(x)$\subset$right(u),fa(x)是u中right最小的一个</p><p>后缀链接组成了一颗后缀链接树（not 后缀树）。后缀链接树的根为起点。若节点y的right集合包含了节点的right集合，则y再后缀链接树上是x的祖先</p><p>一个节点的right结合等于他再后缀链接树上的所有儿子的right集合的并集。而且儿子的right集合之间两两没有交集。</p><p>每个节点能表达的子串长度是一段连续的区间。</p><blockquote><p>比如aaabaab，节点b(4,7)表达的是b，ab，aab三个，他的儿子有两个(4)只能表示aaab （7）能表示baab，abaab，aabaab，aaabaaab。</p></blockquote><p>所有本质不同的子串数量等于$\sum$len(x)-len(fa(x))</p>]]></content>
+    <title>20190807</title>
+    <link href="http://yoursite.com/2019/09/12/20190807/"/>
+    <id>http://yoursite.com/2019/09/12/20190807/</id>
+    <published>2019-09-12T05:48:02.000Z</published>
+    <updated>2019-09-12T05:48:02.397Z</updated>
     
     <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;陈立杰后缀自动机讲稿笔记&quot;&gt;&lt;a href=&quot;#陈立杰后缀自动机讲稿笔记&quot; class=&quot;headerlink&quot; title=&quot;陈立杰后缀自动机讲稿笔记&quot;&gt;&lt;/a&gt;陈立杰后缀自动机讲稿笔记&lt;/h1&gt;&lt;p&gt;trans(s,ch) 当前状态为s，读入&lt;strong&gt;&lt;
-      
     
     </summary>
     
@@ -267,23 +75,22 @@
   </entry>
   
   <entry>
-    <title>8.7总结</title>
-    <link href="http://yoursite.com/2019/08/07/8.7/"/>
-    <id>http://yoursite.com/2019/08/07/8.7/</id>
-    <published>2019-08-06T16:19:04.000Z</published>
-    <updated>2019-09-12T05:45:11.750Z</updated>
+    <title>20190806</title>
+    <link href="http://yoursite.com/2019/09/12/20190806/"/>
+    <id>http://yoursite.com/2019/09/12/20190806/</id>
+    <published>2019-09-12T05:47:49.000Z</published>
+    <updated>2019-09-12T05:49:01.047Z</updated>
     
-    <content type="html"><![CDATA[<p>###牛客多校4 C  单调栈+线段树</p><p>ans=max（ans，0）直接写了ans = 0；</p><p>线段树区间范围没找好</p><p>用cin又超时了</p><h3 id="线性基"><a href="#线性基" class="headerlink" title="线性基"></a>线性基</h3>]]></content>
+    <content type="html"><![CDATA[<p>ѧ���º�׺�Զ���������������</p><p>д��һ������Ī����Ȩֵ�߶�������</p><p>�߶���д�˸�update��1��mid��pos&lt;&lt;1,x,d��һֱÿ��������ɵ��</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;###牛客多校4 C  单调栈+线段树&lt;/p&gt;
-&lt;p&gt;ans=max（ans，0）直接写了ans = 0；&lt;/p&gt;
-&lt;p&gt;线段树区间范围没找好&lt;/p&gt;
-&lt;p&gt;用cin又超时了&lt;/p&gt;
-&lt;h3 id=&quot;线性基&quot;&gt;&lt;a href=&quot;#线性基&quot; class=&quot;headerlink
+        &lt;p&gt;ѧ���º�׺�Զ���������������&lt;/p&gt;
+&lt;p&gt;д��һ������Ī����Ȩֵ�߶�������&lt;/p&gt;
+&lt;p&gt;�߶���д�˸�update��1��mid��pos&amp;lt;&amp;lt;1,x,d��һֱÿ��������ɵ��&lt;/p&gt;
+
       
     
     </summary>
@@ -310,30 +117,6 @@
 &lt;p&gt;sb题竟然花了我接近两个小时？？？？&lt;/p&gt;
 &lt;p&gt;1000个点的完全图我竟然去写了个链式向前星？？？睿智行为&lt;/p&gt;
 &lt;p&gt;链式向前星+堆优化的prim怎么写样例怎么跑
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>8.6总结</title>
-    <link href="http://yoursite.com/2019/08/06/8.6/"/>
-    <id>http://yoursite.com/2019/08/06/8.6/</id>
-    <published>2019-08-05T16:19:04.000Z</published>
-    <updated>2019-09-12T05:44:59.941Z</updated>
-    
-    <content type="html"><![CDATA[<p>学了下后缀自动机，出了下数据</p><p>写了一个带修莫队套权值线段树处理</p><p>线段树写了个update（1，mid，pos&lt;&lt;1,x,d）一直每看出来，傻逼</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;学了下后缀自动机，出了下数据&lt;/p&gt;
-&lt;p&gt;写了一个带修莫队套权值线段树处理&lt;/p&gt;
-&lt;p&gt;线段树写了个update（1，mid，pos&amp;lt;&amp;lt;1,x,d）一直每看出来，傻逼&lt;/p&gt;
-
       
     
     </summary>
