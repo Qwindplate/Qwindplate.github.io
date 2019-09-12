@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>  · hexo</title><meta name="description" content=" - John Doe"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="hexo"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://blog.csdn.net/Yuzzzzzz" target="_blank" class="nav-list-link">CSDN</a></li><li class="nav-list-item"><a href="https://github.com/Qwindplate" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title"></h1><div class="post-info">Sep 12, 2019</div><div class="post-content"><h3 id="线性基"><a href="#线性基" class="headerlink" title="线性基"></a>线性基</h3><p>一个比较好的解释：</p>
+<p>设数集 S 的值域范围为[1,2n−1] T 是 S 的线性基 T={t1,t2,t3,…,tn}（ tx 的最高位的 1 在第 x 位） </p>
+<p>T 中元素互相异或所形成的集合，等价于原数集 S 的元素互相异或形成的集合简单点，可以理解为将原数集进行了压缩</p>
+<p>总所周知，只要两个基向量(0,1)(1,0)就能表示二维空间里的所有向量</p>
+<p>对于数组S，他的任意子序列异或起来的值构成一个新集合SB，显然这个集合的元素很多很多，直接用数组存不太好，于是我们也希望能给他搞几个“基”，然后通过异或这些基来得到SB中的每一个元素，于是就有了线性基。这时候可能就有人问了，那直接用原数组S不就好了嘛，主要还是因为线性基好计算，方便进行各种骚操作。</p>
+<h3 id="构造线性基"><a href="#构造线性基" class="headerlink" title="构造线性基"></a>构造线性基</h3><p>依次插入数，从位数的高到低插入 如果该位无元素(0)，将目前元素放进去 如果改为有元素，异或后处理更低一位 </p>
+<p>比如101 111 11(二进制表示)</p>
+<p>第一次101插进去 s[3]=101</p>
+<p>第二次111插进去，111最高为为3，但是s[3]已经名花有主了，所以111^101 = 10 ，s[2]=10</p>
+<blockquote>
+<p>机智的你们肯定发现了，只要这样处理下去，判断到第i位，大于第i位的数字都为0，如果所有位都有数字的话，若最高位为第n位，所能表示的最大数字位$2^n$,因为每一位异或都能想办法使当前位变为1，最终使所有位都变成1</p>
+</blockquote>
+<p>第三次插11，11^s[3]^s[2]=0,所以就什么都不用干了（即现有的线性基能表示11）</p>
+<blockquote>
+<p>论如何保证线性基span出来的空间和原数组span出来的空间是相同的，很明显啊 因为n^n =0，0^n=n,所以线性基异或出来的数相当于是原数组子集异或出来的</p>
+</blockquote>
+<p>这里保证了线性基是线性无关的。</p>
+<p>学过线代的大家就能明白线性基的原理了（什么？你没学过线代，那就快去学叭）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> arr[N];<span class="comment">//原函数</span></div><div class="line"><span class="keyword">int</span> r[<span class="number">32</span>];<span class="comment">//线性基 </span></div><div class="line"><span class="function"><span class="keyword">bool</span> <span class="title">ins</span><span class="params">(<span class="keyword">int</span> x)</span></span></div><div class="line"><span class="function"></span>&#123;</div><div class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">31</span>;i&gt;=<span class="number">0</span>;i--)</div><div class="line">    	<span class="keyword">if</span>(x&gt;&gt;i)</div><div class="line">        &#123;</div><div class="line">            <span class="keyword">if</span>(!r[i])</div><div class="line">            &#123;</div><div class="line">                r[i] = x;</div><div class="line">                <span class="keyword">return</span> <span class="number">1</span>;</div><div class="line">            &#125;</div><div class="line">            x ^= r[i];</div><div class="line">            <span class="keyword">if</span>(!x)<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">        &#125;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>基础应用</p>
+<p>异或最大值：贪心从高到低贪心选择或不选择 </p>
+<p>异或最小值：贪心从低到高位选择第一个非空元素 </p>
+<p>异或判特值：贪心处理直到为0</p>
+<p>异或个数：因为每个元素都是处理出来相对独立的，答案为2$^{集合个数} $</p>
+<p>异或K小值：$2^i$小值就是第i−1个元素贪心地与前面处理的结果，然后对K拆位处理 </p>
+<p>线性基合并：暴力插入即可(相当于把v1的线性基加到v2数组中)</p>
+<p>引理：<strong><em>若V1，V2是线性空间，B1，B2分别是他们的一组基，令W=B2∩V1，若B1∪（B2\W)线性无关，则W是V1∩V2的一组基</em></strong></p>
+<p> 证明：</p>
+<p>若v∈V1∩V2，则v可同时呗B1和B2表示出。</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2019/09/12/8.7/" class="prev">PREV</a><a href="/2019/09/12/后缀/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2019 <a href="http://yoursite.com">John Doe</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
